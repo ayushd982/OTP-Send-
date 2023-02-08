@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-OTP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="menu-bar">
+        <ul>
+            <li class="active"><a href="#">First Menu</a>
+              <div class="sub-menu-1">
+                <ul>
+                    <li><a href="#">List Of Contact</a></li>
+                    <li><a href="#">Contact Info Message</a></li>
+                </ul>
+              </div>
+            </li>
+            <li ><a href="#">Second Menu</a>
+                <div class="sub-menu-2"> 
+                <ul>
+                    <li><a href="#">List Of Message sent</a></li>
+                </ul>
+              </div>
+            </li>
+        </ul>
+    </div>
+    <section class="contact">
+       <div class="content">
+          <h2>Contact Us</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quae exercitationem sequi eligendi dolores asperiores. Tenetur aliquam sequi veritatis dignissimos enim, aliquid fugit.</p>
+       </div>
+       <div class="container">
+          <div class="contactInfo">
+            <div class="box">
+                <div class="icon"><i class ="fa fa-phone" aria-hidden= "true"></i></div>
+                <div class="text">
+                    <h3>Phone</h3>
+                    <p>+919810153260</p>
+                </div>
+            </div>
+          </div>
+          <div class="contactForm">
+            <form>
+                <h2>Send Message</h2>
+                <div class="inputbox " >
+                    <input type="text " name ="" required ="required" >
+                    <span>Full Name</span>
+                </div>
+                <div class="inputbox ">
+                    <input type="text" name ="" required ="required">
+                    <span>Phone Number</span>
+                </div>
+                <div class="inputbox ">
+                    <textarea required="required "></textarea>
+                    <span>Type Your Message...</span>
+                    
+                </div>
+                
+                <div class="inputbox">
+                    <input type="Submit" name="" value="Send" >
+                </div>
+            </form>
+          </div>
+       </div>
+    </section>
+</body>
+</html>
+
+
+<!-- //   fetch('./contact.json')
+//   .then(function(response){
+//    return response.json();
+//   })
+//   .then(function(contact){
+//     for(var i =0 ; i<contact.length; i++) 
+//     {
+//        document.getElementById("contact").innerHTML +=
+//        contact[i].Name + "=>" +data[i].Number +"<br/>";
+//     }
+//   })
+//    .catch(function(err){
+//    console.log(err); -->
